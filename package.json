@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tailwind build src/global.css -o src/style.css"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/DeveloperAspire/Developers-fact-card/issues"
   },
-  "homepage": "https://github.com/DeveloperAspire/Developers-fact-card#readme"
+  "homepage": "https://github.com/DeveloperAspire/Developers-fact-card#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.1",
+    "tailwindcss": "^2.0.2"
+  }
 }
