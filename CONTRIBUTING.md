@@ -69,7 +69,7 @@ Remember that this project is also meant to teach you and guide you how to read 
 
 E.g if your first name is "precious" your image should be `precious.png` or `precious.jpg` as the case may be.
 
-5. Now go ahead and add , your fact(your fact should be 2 lines only),your name, profession, and your social media links where indicated. DON'T MODIFY OR CHANGE ANY CLASS.
+5. Now go ahead and add , your fact(your fact should be one statement only),your name, profession, and your social media links where indicated. DON'T MODIFY OR CHANGE ANY CLASS.
 
 6. After that, you need to test if everything is okay, so view the project on your browser to see if your card is okay, by right clicking and clicking on `open with live server` or `open with browser`.
 
