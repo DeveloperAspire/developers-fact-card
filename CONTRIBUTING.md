@@ -36,7 +36,7 @@ You don't need to write any HTML or CSS, you just need to understand what the ma
 
 The project already provides you with a card template as seen below, indicating where you should copy and paste to and then modify the template for yourself. Remember, follow every instruction
 
-                  ![](/assest/template-img.png)
+![](/assest/template-img.png)
 
 ## How to start
 
@@ -44,11 +44,11 @@ First you need to have a copy of this project on your own Github account so that
 
 1. Star this repository, then go ahead and fork it, after that it will appear on your Github account as `Youraccountname/Developers-fact-card`.
 
-                      ![](/assest/fork-pic.png)
+![](/assest/fork-pic.png)
 
 2. Copy the URL of the project by clicking on the large big green button with "Code" written, Open the terminal on your local machine, make sure you have Git installed. Then run `git clone 'the URL you copied'`
 
-                       ![](/assest/clone.png)
+![](/assest/clone.png)
 3
 
 ## Building your project
