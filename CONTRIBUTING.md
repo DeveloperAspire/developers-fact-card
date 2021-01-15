@@ -124,7 +124,7 @@ Feedback will be given to you  via email as your pull request is merged or rejec
 
 If you pull request is void of the above, be rest assured that it will be merged, as maintainers will attend to it in due time. 
 
-Once merged/accepted, you can check your card on our live website here.
+Once merged/accepted, you can check your card on our live website [here](https://devfact.vercel.app/).
 
 ## Community Support
 
