@@ -1,111 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Developers Fact Card</title>
+  </head>
 
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="src/style.css">
-		<title>Developers Fact Card</title>
-	</head>
+  <body class="bg-gray-200">
+    <header class="bg-red-400 text-white">
+      <nav class="text-center p-2">
+        <h1 class="font-bold text-2xl mb-4 md:text-4xl">
+          Developer's Fact Card
+        </h1>
+        <a
+          class="underline"
+          href="https://github.com/DeveloperAspire/Developers-fact-card"
+          >How to Contribute</a
+        >
+      </nav>
+    </header>
 
-	<body class="bg-gray-200">
+    <main class="bg-blue-500 text-white p-8">
+      <h1 class="font-bold text-lg mb-4 md:text-2xl">
+        What is Developer Fact Card?
+      </h1>
+      <p>
+        Developer's fact card is an open-source project for gathering facts
+        about life, adventure, software engineering.
+      </p>
+      <p>
+        Collaction is done by developers and for developers. Remember it is
+        Open-source! Do you have a fact to tell the world? You are just one pull
+        request away.
+      </p>
+      <p class="text-xl font-semibold mt-2 text-center">
+        See some amazing fact below!
+      </p>
+    </main>
 
-		<header class="bg-red-400 text-white">
-			<nav class="text-center p-2">
-				<h1 class="font-bold text-2xl  mb-4 md:text-4xl ">Developer's Fact Card</h1>
-				<a class="underline" href="https://github.com/DeveloperAspire/Developers-fact-card">How to Contribute</a>
-			</nav>
-		</header>
+    <!------------------------------ DO NOT MODIFY ANYTHING ABOVE--------------------------------------------->
 
-		<main class="bg-blue-500 text-white p-8">
-			<h1 class="font-bold text-lg  mb-4 md:text-2xl "> What is Developer Fact Card?</h1>
-			<p> Developer's fact card is an open-source project for gathering facts about life, adventure, software
-				engineering.</p>
-			<p> Collaction is done by developers and for developers. Remember it is Open-source! Do you have a fact to tell
-				the world? You are just one pull request away.</p>
-			<p class="text-xl font-semibold mt-2 text-center"> See some amazing fact below!</p>
+    <!-- This is the Container holding all cards, DON'T CHANGE OR MODIFY THE CLASSES-->
 
-		</main>
+    <div class="md:grid md:grid-cols-2">
+      <section
+        class="pt-2 md:pt-4 bg-white rounded-xl shadow mx-10 my-10 w-4/5"
+      >
+        <blockquote class="m-4 md:m-8">
+          <p class="font-semibold">
+            "Software engineering is not all about writing code but more of how
+            you solve a problem."
+          </p>
+        </blockquote>
 
-		<!------------------------------ DO NOT MODIFY ANYTHING ABOVE--------------------------------------------->
+        <div
+          class="text-white bg-pink-600 p-4 md:p-8 rounded-b-xl md:flex md:items-center justify-between"
+        >
+          <div class="flex items-center">
+            <img
+              src="img/Franklin.jpg"
+              alt=""
+              class="w-24 h-24 rounded-full border-4 border-white md:mr-4"
+            />
+            <div class="ml-4 md:ml-0">
+              <p class="font-bold">Franklin Okolie</p>
+              <p>Software Engineer</p>
+            </div>
+          </div>
 
+          <div class="mt-4 md:mt-8 md:mt-0 text-center">
+            <a
+              class="inline-block mr-4 text-gray-200 hover:text-white"
+              href="https://github.com/DeveloperAspire"
+              ><i class="fab fa-github fa-2x"></i
+            ></a>
+            <a
+              class="inline-block mr-4 text-gray-200 hover:text-white"
+              href="https://twitter.com/DeveloperAspire"
+              ><i class="fab fa-twitter fa-2x"></i
+            ></a>
+            <a
+              class="inline-block mr-4 text-gray-200 hover:text-white"
+              href="https://www.facebook.com/silvia.frank.58173/"
+              ><i class="fab fa-facebook-f fa-2x"></i
+            ></a>
+          </div>
+        </div>
+      </section>
 
-		<!-- This is the Container holding all cards, DON'T CHANGE OR MODIFY THE CLASSES-->
+      <section
+        class="pt-2 md:pt-4 bg-white rounded-xl shadow mx-10 my-10 w-4/5"
+      >
+        <blockquote class="m-4 md:m-8">
+          <p class="font-semibold">
+            "The more you know, the more you know there are more you need to
+            know."
+          </p>
+        </blockquote>
 
-		<div class="md:grid md:grid-cols-2">
+        <div
+          class="text-white bg-blue-600 p-4 md:p-8 rounded-b-xl md:flex md:items-center justify-between"
+        >
+          <div class="flex items-center">
+            <img
+              src="img/eunit.jpg"
+              alt=""
+              class="w-24 h-24 rounded-full border-4 border-white md:mr-4"
+            />
+            <div class="ml-4 md:ml-0">
+              <p class="font-bold">Eunit</p>
+              <p>Frontend developer</p>
+            </div>
+          </div>
 
+          <div class="mt-4 md:mt-8 md:mt-0 text-center">
+            <a
+              class="inline-block mr-4 text-gray-200 hover:text-white"
+              href="https://github.com/eunit99"
+              ><i class="fab fa-github fa-2x"></i
+            ></a>
+            <a
+              class="inline-block mr-4 text-gray-200 hover:text-white"
+              href="https://twitter.com/eunit99"
+              ><i class="fab fa-twitter fa-2x"></i
+            ></a>
+            <a
+              class="inline-block mr-4 text-gray-200 hover:text-white"
+              href="https://www.facebook.com/eunit99"
+              ><i class="fab fa-facebook-f fa-2x"></i
+            ></a>
+          </div>
+        </div>
+      </section>
 
-			<section class="pt-2 md:pt-4 bg-white rounded-xl shadow mx-10 my-10 w-4/5 ">
-				<blockquote class="m-4 md:m-8 ">
-					<p class="font-semibold"> "Software engineering is not all about writing code but more of how you solve a
-						problem." </p>
-				</blockquote>
+      <section
+        class="pt-2 md:pt-4 bg-white rounded-xl shadow mx-10 my-10 w-4/5"
+      >
+        <blockquote class="m-4 md:m-8">
+          <p class="font-semibold">
+            "Simplicity is hard to build, easy to use, and hard to charge for.
+            Complexity is easy to build, hard to use, and easy to charge for"
+          </p>
+        </blockquote>
 
+        <div
+          class="text-white bg-blue-600 p-4 md:p-8 rounded-b-xl md:flex md:items-center justify-between"
+        >
+          <div class="flex items-center">
+            <img
+              src="img/calvin.jpg"
+              alt=""
+              class="w-24 h-24 rounded-full border-4 border-white md:mr-4"
+            />
+            <div class="ml-4 md:ml-0">
+              <p class="font-bold">Calvin Puram</p>
+              <p>Software Engineer</p>
+            </div>
+          </div>
 
-				<div class="text-white bg-pink-600 p-4 md:p-8 rounded-b-xl md:flex md:items-center justify-between">
+          <div class="mt-4 md:mt-8 md:mt-0 text-center">
+            <a
+              class="inline-block mr-4 text-gray-200 hover:text-white"
+              href="https://github.com/calvin-puram"
+              ><i class="fab fa-github fa-2x"></i
+            ></a>
+            <a
+              class="inline-block mr-4 text-gray-200 hover:text-white"
+              href="https://twitter.com/cpuram1"
+              ><i class="fab fa-twitter fa-2x"></i
+            ></a>
+            <a
+              class="inline-block mr-4 text-gray-200 hover:text-white"
+              href="https://facebook.com/cpuram1"
+              ><i class="fab fa-facebook-f fa-2x"></i
+            ></a>
+          </div>
+        </div>
+      </section>
 
-					<div class="flex items-center">
-						<img src="img/Franklin.jpg" alt="" class="w-24 h-24 rounded-full border-4 border-white md:mr-4">
-						<div class="ml-4 md:ml-0">
-							<p class="font-bold"> Franklin Okolie</p>
-							<p> Software Engineer</p>
-						</div>
-					</div>
-
-					<div class=" mt-4 md:mt-8 md:mt-0 text-center">
-						<a class="inline-block mr-4 text-gray-200 hover:text-white" href="https://github.com/DeveloperAspire"><i
-								class="fab fa-github fa-2x"></i></a>
-						<a class="inline-block mr-4 text-gray-200 hover:text-white" href="https://twitter.com/DeveloperAspire"><i
-								class="fab fa-twitter fa-2x"></i></a>
-						<a class="inline-block mr-4 text-gray-200 hover:text-white"
-							href="https://www.facebook.com/silvia.frank.58173/"><i class="fab fa-facebook-f fa-2x"></i></a>
-					</div>
-				</div>
-
-			</section>
-
-
-
-
-
-			<section class="pt-2 md:pt-4 bg-white rounded-xl shadow mx-10 my-10 w-4/5">
-				<blockquote class="m-4 md:m-8 ">
-					<p class="font-semibold"> "The more you know, the more you know there are more you need to know." </p>
-				</blockquote>
-
-
-				<div class="text-white bg-blue-600 p-4 md:p-8 rounded-b-xl md:flex md:items-center justify-between">
-
-					<div class="flex items-center ">
-						<img src="img/eunit.jpg" alt="" class="w-24 h-24 rounded-full border-4 border-white md:mr-4">
-						<div class="ml-4 md:ml-0">
-							<p class="font-bold"> Eunit</p>
-							<p> Frontend developer</p>
-						</div>
-					</div>
-
-					<div class=" mt-4 md:mt-8 md:mt-0 text-center">
-						<a class="inline-block mr-4 text-gray-200 hover:text-white" href="https://github.com/eunit99"><i
-								class="fab fa-github fa-2x"></i></a>
-						<a class="inline-block mr-4 text-gray-200 hover:text-white" href="https://twitter.com/eunit99"><i
-								class="fab fa-twitter fa-2x"></i></a>
-						<a class="inline-block mr-4 text-gray-200 hover:text-white" href="https://www.facebook.com/eunit99"><i
-								class="fab fa-facebook-f fa-2x"></i></a>
-					</div>
-				</div>
-
-			</section>
-
-			
-
-			
-
-			
-
-
-
-
-			<!--EACH SECTION TAG IS ONE CARD,SO COPY THE SECTION BELOW AND PASTE IN ABOVE, GIVING ONE LINE, THEN ADD YOUR OWN INFORMATION : YOUR FACTS, YOUR PICTURE,YUR NAME, YOUR PROFESSION, YOUR SOCIAL MEDIA LINKS. 
+      <!--EACH SECTION TAG IS ONE CARD,SO COPY THE SECTION BELOW AND PASTE IN ABOVE, GIVING ONE LINE, THEN ADD YOUR OWN INFORMATION : YOUR FACTS, YOUR PICTURE,YUR NAME, YOUR PROFESSION, YOUR SOCIAL MEDIA LINKS. 
 
  --COPY THE SECTION BELOW--------------------------- BEGIN----------DON'T CHANGE OR MODIFY THE CLASSES.----------
 
@@ -140,39 +214,49 @@
 
   
 -->
+    </div>
 
+    <!-- --------------------DO NOT MODIFY ANYTHING BELOW-------------------------------->
 
-		</div>
+    <footer class="bg-red-500 text-white p-4">
+      <section class="md:p-10 md:flex md:justify-between">
+        <div class="mb-2">
+          <h1 class="mb-2">You can contribute to Developers Fact card too.</h1>
+          <p>
+            Just send a Pull request!
+            <a
+              class="underline"
+              href="https://github.com/DeveloperAspire/Developers-fact-card"
+              >How to Contribute</a
+            >
+          </p>
+        </div>
 
+        <div class="text-center my-4">
+          <a
+            class="inline-block mr-4 text-gray-200 hover:text-white"
+            href="https://github.com/DeveloperAspire/Developers-fact-card"
+            ><i class="fab fa-github fa-2x"></i
+          ></a>
+          <a
+            class="inline-block mr-4 text-gray-200 hover:text-white"
+            href="https://twitter.com/DeveloperAspire"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+        </div>
+      </section>
 
+      <p class="text-center">
+        Copyright&copy; 2021 Developed by
+        <a class="underline" href="https://github.com/DeveloperAspire/"
+          >Franklin Okolie</a
+        >
+      </p>
+    </footer>
 
-		<!-- --------------------DO NOT MODIFY ANYTHING BELOW-------------------------------->
-
-		<footer class="bg-red-500 text-white p-4 ">
-
-			<section class="md:p-10 md:flex md:justify-between">
-				<div class="mb-2">
-					<h1 class="mb-2">You can contribute to Developers Fact card too.</h1>
-					<p> Just send a Pull request! <a class="underline"
-							href="https://github.com/DeveloperAspire/Developers-fact-card">How to Contribute</a> </p>
-				</div>
-
-				<div class="text-center my-4 ">
-					<a class="inline-block mr-4 text-gray-200 hover:text-white"
-						href="https://github.com/DeveloperAspire/Developers-fact-card"><i class="fab fa-github fa-2x"></i></a>
-					<a class="inline-block mr-4 text-gray-200 hover:text-white" href="https://twitter.com/DeveloperAspire"><i
-							class="fab fa-twitter fa-2x"></i></a>
-
-				</div>
-			</section>
-
-			<p class="text-center"> Copyright&copy; 2021 Developed by <a class="underline"
-					href="https://github.com/DeveloperAspire/">Franklin Okolie</a></p>
-
-
-		</footer>
-
-		<script src="https://kit.fontawesome.com/5c2eecb01d.js" crossorigin="anonymous"></script>
-	</body>
-
+    <script
+      src="https://kit.fontawesome.com/5c2eecb01d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
