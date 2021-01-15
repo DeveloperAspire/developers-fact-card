@@ -1,6 +1,6 @@
 # Developer's Fact Card
 
-![](/img/frank-card.png)
+![](/assest/frank-card.png)
 
 ## Welcome! 👋
 
@@ -36,7 +36,7 @@ You don't need to write any HTML or CSS, you just need to understand what the ma
 
 The project already provides you with a card template as seen below, indicating where you should copy and paste to and then modify the template for yourself. Remember, follow every instruction
 
- ![](/img/template-img.png)
+ ![](/assest/template-img.png)
 
 ## How to start
 
@@ -44,17 +44,9 @@ First you need to have a copy of this project on your own Github account so that
 
 1. Star this repository, then go ahead and fork it, after that it will appear on your Github account as `Youraccountname/Developers-fact-card`.
 
-![](/img/fork-pic.png)
+![](/assest/fork-pic.png)
 
-
-
-
-
-If you would like the Sketch file in order to inspect the design in more detail you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
-
-You will find all the required assets in the `/images` folder. The assets are already optimized.
-
-There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
+2.Copy the URL of the project by clicking on the large big green button with "Code" written, Open the terminal on your local machine, make sure you have Git installed. Then run `git clone 'the URL you copied'`
 
 ## Building your project
 
