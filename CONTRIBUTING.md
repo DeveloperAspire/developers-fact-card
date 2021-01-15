@@ -21,7 +21,7 @@ project you will learn:
 - How to work on a real life project and environment.
 - Improve your reading ability
 
-**To contribute to this porject, you need:**
+**To contribute to this project, you need:**
 
 - To have a basic knowledge of HTML and CSS.
 - To have [git](https://git-scm.com/) installed on your local machine.
@@ -34,15 +34,20 @@ your social media links. Very simple.
 
 You don't need to write any HTML or CSS, you just need to understand what the markup means so as to be able to make changes.
 
-The project already provides you with a card template as seen below, indicating where you should copy and paste to and then modify the template for yourself.
+The project already provides you with a card template as seen below, indicating where you should copy and paste to and then modify the template for yourself. Remember, follow every instruction
 
  ![](/img/template-img.png)
 
-## Where to find everything
+## How to start
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to. 
+First you need to have a copy of this project on your own Github account so that you can have it on your local machine and begin to make changes.
 
-The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. This should help train your eye to perceive differences in spacings and sizes.
+1. Star this repository, then go ahead and fork it, after that it will appear on your Github account as `Youraccountname/Developers-fact-card`.
+![](/img/fork-pic.png)
+
+
+
+
 
 If you would like the Sketch file in order to inspect the design in more detail you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
 
