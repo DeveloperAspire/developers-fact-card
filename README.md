@@ -6,9 +6,9 @@
 
   Welcome to Developer's Fact Card 🔭. This repository contains facts, motivation quotes, statement and many more 
  
- that can aid a person life in his/her career as a developer. It also contains names of all those you wrote this 
+ that can aid a person life in his/her career as a developer. It also contains the names of all those you wrote 
  
- fact and their social media handles, so you get to connect to them.
+ this fact and their social media handles, so you get to connect to them.
  
  While this repository remains a fun and educative table for everyone in the Tech community, this repository is 
  
@@ -28,4 +28,8 @@ continually modified for any beginner, no matter your level.
 
 ### Do you want to contribute?
 
-Then check out the [contributor guide](/CONTRIBUTING.md)
+Then check out the [contributor guide](/CONTRIBUTING.md). Make sure to follow the instructions step by step
+
+and you will be okay, and after making your first pull request, you will get to see your own fact or quote on the 
+
+live website, Isn't that great? Hurry and send the Pull request now.
