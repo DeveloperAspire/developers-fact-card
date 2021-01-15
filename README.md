@@ -1,6 +1,6 @@
 ## Developer's Fact Card 
 
-![](/img/frank-card.png)
+![](/assest/frank-card.png)
 
  ## **Hello there** 👋, 
 
