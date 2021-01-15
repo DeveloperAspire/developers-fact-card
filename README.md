@@ -16,7 +16,7 @@
 
  You as a beginner can make contribution to this project, and get your name, profession, your social media handles
  
-up on the internet through this project. **Just a pull request away**.
+up on the internet through this project. **Just a pull request away**. You can view the live site [here](https://devfact.vercel.app/)
 
  ### For Developers and by developers
 
