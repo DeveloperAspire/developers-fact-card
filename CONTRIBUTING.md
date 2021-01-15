@@ -43,6 +43,7 @@ The project already provides you with a card template as seen below, indicating 
 First you need to have a copy of this project on your own Github account so that you can have it on your local machine and begin to make changes.
 
 1. Star this repository, then go ahead and fork it, after that it will appear on your Github account as `Youraccountname/Developers-fact-card`.
+
 ![](/img/fork-pic.png)
 
 
