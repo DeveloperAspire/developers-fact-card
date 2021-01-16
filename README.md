@@ -4,9 +4,9 @@
 
  ## **Hello there** 👋, 
 
-  Welcome to Developer's Fact Card 🔭. This repository contains facts, motivation quotes, statement and many more 
+  Welcome to Developer's Fact Card 🔭. This repository contains facts, motivational quotes, statement and many more 
  
- that can aid a person life in his/her career as a developer. It also contains the names of all those you wrote 
+ that can aid a person in his/her career as a developer. It also contains the names of all those you wrote 
  
  this fact and their social media handles, so you get to connect to them.
  
