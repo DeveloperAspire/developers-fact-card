@@ -6,6 +6,11 @@ function developersFacts () {
         ' text-white p-4 md:p-8 rounded-b-xl md:flex md:items-center justify-between'
       )
     },
+    getSocialMediaLink (fact, socialMedia) {
+      return (
+        'https://' + socialMedia.toLowerCase() + '.com/' + fact[socialMedia]
+      )
+    },
     facts: [
       {
         author: 'Franklin Okolie',
@@ -14,9 +19,9 @@ function developersFacts () {
           'Software engineering is not all about writing code but more of how you solve a problem.',
         image: 'img/Franklin.jpg',
         color: 'bg-pink-600',
-        github: 'https://github.com/DeveloperAspire',
-        twitter: 'https://twitter.com/DeveloperAspire',
-        facebook: 'https://www.facebook.com/silvia.frank.58173'
+        github: 'DeveloperAspire',
+        twitter: 'DeveloperAspire',
+        facebook: 'silvia.frank.58173'
       },
       {
         author: 'Eunit',
@@ -25,9 +30,9 @@ function developersFacts () {
           'The more you know, the more you know there are more you need to know.',
         image: 'img/eunit.jpg',
         color: 'bg-blue-600',
-        github: 'https://github.com/eunit99',
-        twitter: 'https://twitter.com/eunit99',
-        facebook: 'https://www.facebook.com/eunit99'
+        github: 'eunit99',
+        twitter: 'eunit99',
+        facebook: 'eunit99'
       },
       {
         author: 'Melody Onyeocha',
@@ -36,9 +41,9 @@ function developersFacts () {
           "In programming, as long as you're getting a new error message, you're learning.",
         image: 'img/melody.jpg',
         color: 'bg-red-500',
-        github: 'https://github.com/Melocoder',
-        twitter: 'https://twitter.com/Melocoder',
-        facebook: 'https://www.facebook.com/Melocoder'
+        github: 'Melocoder',
+        twitter: 'Melocoder',
+        facebook: 'Melocoder'
       }
     ]
   }
