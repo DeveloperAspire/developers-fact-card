@@ -64,19 +64,25 @@
 
             <div class="mt-4 md:mt-8 md:mt-0 text-center">
               <a
-                x-bind:href="fact.github"
+                target="_blank"
+                rel="noopener noreferer"
+                x-bind:href="getSocialMediaLink(fact, 'github')"
                 class="inline-block mr-4 text-gray-200 hover:text-white"
               >
                 <i class="fab fa-github fa-2x"></i>
               </a>
               <a
-                x-bind:href="fact.twitter"
+                target="_blank"
+                rel="noopener noreferer"
+                x-bind:href="getSocialMediaLink(fact, 'twitter')"
                 class="inline-block mr-4 text-gray-200 hover:text-white"
               >
                 <i class="fab fa-twitter fa-2x"> </i>
               </a>
               <a
-                x-bind:href="fact.facebook"
+                target="_blank"
+                rel="noopener noreferer"
+                x-bind:href="getSocialMediaLink(fact, 'facebook')"
                 class="inline-block mr-4 text-gray-200 hover:text-white"
               >
                 <i class="fab fa-facebook-f fa-2x"></i>
