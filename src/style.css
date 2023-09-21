@@ -7,7 +7,7 @@ Document
 
 /**
 Use a better box model (opinionated).
-*/
+*/ 
 
 *,
 *::before,
@@ -183885,4 +183885,25 @@ video {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
+}
+
+.title_heading {
+ font-family: 'Rancho', sans-serif;
+ font-size: 3rem;
+ letter-spacing: 2px;
+}
+
+.sub_heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.card-hover {
+  transition: padding 0.1s ease-in-out , background 0.1s ease-in-out;
+}
+
+.card-hover:hover {
+  background: #fff7e8;
+  padding: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
